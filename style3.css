@@ -1,0 +1,124 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: 'SerifFont';
+  src: url('C:\Users\sonij\Downloads') format('otf'),
+       url('C:\Users\sonij\Downloads') format('otf');
+
+      
+}
+@font-face {
+  font-family: 'SansSerifFont';
+  src: url('C:\Users\sonij\Downloads') format('otf'),
+       url('C:\Users\sonij\Downloads') format('otf');
+}
+
+body {
+  font-family: 'SerifFont', serif;
+  font-size: 10px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SansSerifFont', sans-serif;
+
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+
+}
+
+h1, h2, h3 h4, h5, h6 {
+  letter-spacing: 0.1em;
+}
+h1 {
+  text-align: center;
+}
+
+
+a {
+  color: #336699;
+  text-decoration: underline; 
+}
+
+a:hover, a:focus {
+  text-decoration: none; 
+}
+
+a:active {
+  
+}
+
+
+a:focus {
+  outline: none;
+}
+
+
+a.external-link {
+  background-image: url('+"C:\Users\sonij\Downloads\external-link-52.png"');
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px; 
+}
+
+
+ul, ol {
+  
+}
+
+ul li, ol li {
+  line-height: 1.5; 
+
+}
+
+
+.nav-menu {
+  
+  
+}

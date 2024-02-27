@@ -1,0 +1,90 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+      width: 200px;
+  }
+  /* Display the navigation items in a row with equal spacing */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Make the navigation bar stick to the top of the viewport */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Wrap text around the image inside the article */
+article img {
+  float: left;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+/* Display the article and aside as a two-column layout */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-column-gap: 20px; /* Adjust as needed */
+}
+
+/* Display the photographs as a two-column grid */
+.photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  grid-gap: 1px; /* Gap between images */
+}
+
+/* Ensure images take up full width of their container */
+.photos img {
+  width: 100%;
+}
