@@ -1,0 +1,47 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+/* Centering the box horizontally */
+.fancy-box {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Centering the text within the box */
+.fancy-box p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* A slight increase in font size */
+.fancy-box p {
+  font-size: 1.1rem; 
+}
+
+
+.fancy-box {
+  background-color: #3498db;
+  color: white; 
+  text-shadow: 2px 2px 2px black; 
+  border-radius: 8px; 
+  border: 1px solid #2980b9; 
+}
+
+
+.fancy-box {
+  background: linear-gradient(to bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.2) 100%);
+}
+
+/* Box shadows */
+.fancy-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  box-shadow: inset 3px 3px 5px rgba(255, 255, 255, 0.5); 
+  box-shadow: inset -3px -3px 5px rgba(0, 0, 0, 0.5); 
+}
