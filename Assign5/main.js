@@ -1,4 +1,14 @@
+/*-
 
+         Name: Jay Soni
+
+         File: main.js
+
+         Date: 19 April 2024
+
+        File includes a detailed description of comments with document element with para   
+
+--*/
 
 const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');
@@ -33,7 +43,7 @@ function submitComment() {
   const commentPara = document.createElement('p');
   const nameValue = nameField.value;
   const commentValue = commentField.value;
-  
+
   namePara.textContent = nameValue;
   commentPara.textContent = commentValue;
 
